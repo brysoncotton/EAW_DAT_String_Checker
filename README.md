@@ -1,4 +1,4 @@
-# EAW_DAT_String_Checker
+# EAW DAT String Checker
 
 This code searches for missing strings in the "Empire at War" .DAT file, which contains all the strings used in the game, making it easy to identify which
 strings you may have accidently skipped.
