@@ -560,7 +560,7 @@ Text_ID" tags ✅
     if xml_file == 'ENUM' or xml_file == 'AI':
         pass
     else:
-        # Ignore files that aren't xml or don't have  text in vanilla game
+        # Ignore files that aren't xml or don't have text in vanilla game
         if xml_file == 'ANIMATIONSFXMAPS.TXT' or \
                 xml_file == 'SFXEVENTSUNITSREBELHEROES.XML' or \
                 xml_file == 'SFXEVENTSUNITSCAPITAL.XML' or \
@@ -649,17 +649,17 @@ for file in missing_Encyclopedia_Weather_Info_list:
 total = len(missing_Text_id_list) + len(missing_Describe_Population_list) + len(missing_Describe_Wildlife_list) + len(missing_Describe_Terrain_list) + len(missing_Describe_Weather_list) + len(missing_Describe_Tactical_list) + len(missing_Describe_Advantage_list) + len(missing_Describe_History_list) + len(missing_Planet_Ability_Name_list) + len(missing_Planet_Ability_Description_list) + len(missing_Encyclopedia_Text_list) + len(missing_Encyclopedia_Weather_Name_list) + len(missing_Encyclopedia_Weather_Info_list)
 
 print(f'''
-Missing "Text_ID" Tag {len(missing_Text_id_list)}
-Missing "Describe_Population" Tag {len(missing_Describe_Population_list)}
-Missing "Describe_Wildlife" Tag {len(missing_Describe_Wildlife_list)}
-Missing "Describe_Terrain" Tag {len(missing_Describe_Terrain_list)}
-Missing "Describe_Weather" Tag {len(missing_Describe_Weather_list)}
-Missing "Describe_Tactical" Tag {len(missing_Describe_Tactical_list)}
-Missing "Describe_Advantage" Tag {len(missing_Describe_Advantage_list)}
-Missing "Describe_History" Tag {len(missing_Describe_History_list)}
-Missing "Planet_Ability_Name" Tag {len(missing_Planet_Ability_Name_list)}
-Missing "Planet_Ability_Description" Tag {len(missing_Planet_Ability_Description_list)}
-Missing "Encyclopedia_Text" Tag {len(missing_Encyclopedia_Text_list)}
-Missing "Encyclopedia_Weather_Name" Tag {len(missing_Encyclopedia_Weather_Name_list)}
-Missing "Encyclopedia_Weather_Info" Tag {len(missing_Encyclopedia_Weather_Info_list)}
+Missing "Text_ID" Tag: {len(missing_Text_id_list)}
+Missing "Describe_Population" Tag: {len(missing_Describe_Population_list)}
+Missing "Describe_Wildlife" Tag: {len(missing_Describe_Wildlife_list)}
+Missing "Describe_Terrain" Tag: {len(missing_Describe_Terrain_list)}
+Missing "Describe_Weather" Tag: {len(missing_Describe_Weather_list)}
+Missing "Describe_Tactical" Tag: {len(missing_Describe_Tactical_list)}
+Missing "Describe_Advantage" Tag: {len(missing_Describe_Advantage_list)}
+Missing "Describe_History" Tag: {len(missing_Describe_History_list)}
+Missing "Planet_Ability_Name" Tag: {len(missing_Planet_Ability_Name_list)}
+Missing "Planet_Ability_Description" Tag: {len(missing_Planet_Ability_Description_list)}
+Missing "Encyclopedia_Text" Tag: {len(missing_Encyclopedia_Text_list)}
+Missing "Encyclopedia_Weather_Name" Tag: {len(missing_Encyclopedia_Weather_Name_list)}
+Missing "Encyclopedia_Weather_Info" Tag: {len(missing_Encyclopedia_Weather_Info_list)}
 TOTAL MISSING TAGS: {total}''')
